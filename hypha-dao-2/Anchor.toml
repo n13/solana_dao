@@ -1,0 +1,13 @@
+[programs.localnet]
+membership = "programs/membership"
+voting = "programs/voting"
+agreement = "programs/agreement"
+treasury = "programs/treasury"
+delegation = "programs/delegation"
+
+[test]
+lib_name = "hypha_dao_2"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
